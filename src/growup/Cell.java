@@ -12,11 +12,16 @@ import java.awt.Graphics;
  *
  * @author Adam
  */
+
+/*! \brief Class responsible for cell logic
+ *        
+ */
+
 public class Cell {
 
 	private int x;
 	private int y;
-	public static int size=20;
+	public static int size=20;  ///< Size of one cell in px's
 	private boolean alive;
 	public boolean nextIteration;
         public boolean nextIterationRec=false;
